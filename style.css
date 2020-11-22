@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Utilities */
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: #333;
+  box-shadow: 2px 2px 3px 2px darkred;
+  font-size: 1rem;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.key:hover {
+  border: 2px solid white;
+}
+
+.height {
+  height: 3rem;
+}
+
+/* Main */
+.keyboard {
+  width: 65%;
+  margin-top: 15rem;
+  border: 10px solid black;
+  border-radius: 30px;
+  padding: 1.5rem;
+}
+
+.row {
+  margin-bottom: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+/* Letters */
+.letter {
+  width: 4rem;
+}
+
+/* Special Keys */
+#Tab,
+#CapsLock {
+  width: 5rem;
+}
+
+#ShiftLeft,
+#ShiftRight {
+  width: 7rem;
+}
+
+#AltLeft,
+#AltRight,
+#MetaLeft,
+#fn {
+  width: 4.3rem;
+}
+
+#ControlLeft,
+#ControlRight {
+  width: 6.5rem;
+}
+
+#Space {
+  width: 19rem;
+}
